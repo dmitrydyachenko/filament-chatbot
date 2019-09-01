@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6861ec0c496896b9fc58c01fcad53fa4",
+    "revision": "efa51e54cb754b8f5417d9923d80f0d2",
     "url": "/filament-chatbot/index.html"
   },
   {
-    "revision": "5070de0de5a46b3b334c",
+    "revision": "dc865ff20169a7ec57df",
     "url": "/filament-chatbot/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "fe66ecbd296d40ea8285",
-    "url": "/filament-chatbot/static/css/main.ab165e89.chunk.css"
+    "revision": "36f3909ca82c1af3ed3f",
+    "url": "/filament-chatbot/static/css/main.d5fb5432.chunk.css"
   },
   {
-    "revision": "5070de0de5a46b3b334c",
-    "url": "/filament-chatbot/static/js/2.11fcb18c.chunk.js"
+    "revision": "dc865ff20169a7ec57df",
+    "url": "/filament-chatbot/static/js/2.b7b05c82.chunk.js"
   },
   {
-    "revision": "fe66ecbd296d40ea8285",
-    "url": "/filament-chatbot/static/js/main.a0a0291a.chunk.js"
+    "revision": "36f3909ca82c1af3ed3f",
+    "url": "/filament-chatbot/static/js/main.d6a22c52.chunk.js"
   },
   {
     "revision": "bccbc51e4181b813b52f",
@@ -28,20 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/filament-chatbot/static/media/Gotham-Black.e29998d8.woff"
   },
   {
-    "revision": "b51ec430e735ebae2eddaa4f03675d56",
-    "url": "/filament-chatbot/static/media/Gotham-Bold.b51ec430.woff"
-  },
-  {
     "revision": "dcb8a07cf3cbc95e4fc326dda7bf4329",
     "url": "/filament-chatbot/static/media/Gotham-Light.dcb8a07c.woff"
-  },
-  {
-    "revision": "cae9f840575e702faf5229839f268f9e",
-    "url": "/filament-chatbot/static/media/Gotham-Thin.cae9f840.woff"
-  },
-  {
-    "revision": "c614fbadff73fc2f0825661e872a94be",
-    "url": "/filament-chatbot/static/media/Gotham-XLight.c614fbad.woff"
   },
   {
     "revision": "48df58b931bc6b8aca7a335ea6460373",
