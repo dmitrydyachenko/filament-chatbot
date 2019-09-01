@@ -167,7 +167,7 @@ export default class BotContainer extends React.Component {
 	}
 
 	updateDialogFlow = (messages, dialogData, delay, scrollToMessage, onComplete) => {
-		this.loadingTimeout = global.setTimeout(() => {
+		this.loadingTimeout = setTimeout(() => {
 			this.setState({
 				dialogData: update(dialogData, { dialogFlow: { $set: messages } }),
 			}, () => {
@@ -186,27 +186,24 @@ export default class BotContainer extends React.Component {
 	}
 
 	initSettings = (settings, onComplete) => {
+		const { botUrl, botId, botProviderId, welcomeMessage } = settings;
+
 		this.setState({
 			userSettings: {
 				userId: uuidv1(),
 				userImage: userImage,
 			},
+			botSettings: {
+				botUrl,
+				botId,
+				botProviderId,
+				welcomeMessage,
+				sessionId: uuidv1(),
+			},
 		}, () => {
-			const { botUrl, botId, botProviderId, welcomeMessage } = settings;
-
-			this.setState({
-				botSettings: {
-					botUrl,
-					botId,
-					botProviderId,
-					welcomeMessage,
-					sessionId: uuidv1(),
-				},
-			}, () => {
-				if (onComplete) {
-					onComplete();
-				}
-			});
+			if (onComplete) {
+				onComplete();
+			}
 		});
 	}
 
