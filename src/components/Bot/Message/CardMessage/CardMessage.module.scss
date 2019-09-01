@@ -14,9 +14,13 @@
         .message {
             display: inline-block;
             overflow: hidden;
-            padding: 0 60px;
+            padding: 0;
             width: 100%;
             z-index: 1;
+
+            @include media-breakpoint-up(sm) {
+                padding: 0 60px;
+            }
 
             .body {
                 background-color: $white;
@@ -44,7 +48,7 @@
 
                     @include media-breakpoint-up(lg) {
                         flex-direction: row;
-                        align-items: normal;
+                        align-items: stretch;
                     }
 
 
@@ -74,7 +78,7 @@
 
                         .text {
                             color: $grey800;
-                            flex: 1 0 0;
+                            flex: 1 0 auto;
                             font-size: 12px;
                             font-weight: bolder;
                             line-height: 18px;

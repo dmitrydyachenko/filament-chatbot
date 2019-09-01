@@ -44,7 +44,7 @@ const Bot = (props) => {
 						</Col>
 					</Row>
 					<div className={S.dialog_container}>
-						<div className={`${S.dialog_content} ${isDark ? S.dark : S.light}`} ref={messagesEnd => messagesEndRef(messagesEnd)}>
+						<div className={`${S.dialog_content} ${isDark ? S.dark : S.light}`} ref={messagesEndRef}>
 							{
 								dialogFlow && dialogFlow.map((message, i) => {
 									return (

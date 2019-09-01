@@ -1,4 +1,7 @@
 @import "src/styles/variables";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/breakpoints";
 
 .timestamp_container {
     .timestamp {
@@ -7,7 +10,7 @@
         &.dark {
             color: $grey50;
         }
-    
+
         &.light {
             color: $grey900;
         }
@@ -15,11 +18,15 @@
 
     &.left {
         float: left;
-        padding: 5px 0 10px 60px;
+        padding: 5px 0 10px 0;
+
+        @include media-breakpoint-up(sm) {
+            padding: 5px 0 10px 60px;
+        }
     }
 
     &.right {
         float: right;
         padding: 5px 60px 10px 0;
-    }   
+    }
 }

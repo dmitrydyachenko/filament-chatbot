@@ -3,8 +3,6 @@ import BotContainer from './components/Bot/BotContainer';
 import { ThemeProvider } from "./components/Bot/Theme/ThemeContext";
 import { BOTURL, BOTID, BOTPROVIDERID, WELCOMEMESSAGE } from './utils/settings';
 
-import './App.scss';
-
 function App() {
 	const settings = {
 		botUrl: BOTURL,

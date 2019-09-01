@@ -23,7 +23,7 @@ export default class BotContainer extends React.Component {
 
 		this.loadingTimeout = null;
 		this.scrollingTimeout = null;
-		this.messagesEndRef = null;
+		this.messagesEndRef = React.createRef();
 	}
 
 	componentDidMount() {
@@ -84,7 +84,7 @@ export default class BotContainer extends React.Component {
 			<Bot
 				{...this.state}
 				onSendClick={this.onSendClick}
-				messagesEndRef={el => this.messagesEndRef = el}
+				messagesEndRef={this.messagesEndRef}
 			/>
 		);
 	}
@@ -210,11 +210,11 @@ export default class BotContainer extends React.Component {
 
 	scrollToMessage = (message, delay) => {
 		if (this.messagesEndRef) {
-			this.scrollingTimeout = global.setTimeout(() => {
+			this.scrollingTimeout = setTimeout(() => {
 				const scrollToMessage = document.getElementById(message);
 
 				if (scrollToMessage && scrollToMessage.firstChild) {
-					this.messagesEndRef.scrollTo(0, (scrollToMessage.firstChild).offsetTop - 140);
+					this.messagesEndRef.current.scrollTo(0, (scrollToMessage.firstChild).offsetTop - 140);
 				}
 
 				clearTimeout(this.scrollingTimeout);

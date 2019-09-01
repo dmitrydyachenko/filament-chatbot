@@ -8,20 +8,21 @@
 
     .row {
         display: flex;
-        padding: 0 15px;
         justify-content: center;
+        padding: 0 15px;
 
         .column {
-            display: flex;
-            flex-direction: column;
-            box-shadow: 12px 10px 20px 10px $grey300;
-            padding: 0;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            box-shadow: 12px 10px 20px 10px $grey300;
+            display: flex;
+            flex: 1 0  auto;
+            flex-direction: column;
             margin: 30px 0 0 0;
             max-width: 100%;
+            padding: 0;
 
             @include media-breakpoint-up(lg) {
                 max-width: 60%;
@@ -29,19 +30,23 @@
 
 
             .dialog_header {
-                margin: 0;
-                background: linear-gradient(135deg, $yellow100 0%, $yellow200 100%);
-                display: flex;
                 align-items: center;
-                justify-content: space-between;
+                background: linear-gradient(135deg, $yellow100 0%, $yellow200 100%);
                 border-top-left-radius: 10px;
                 border-top-right-radius: 10px;
+                display: flex;
+                justify-content: space-between;
+                margin: 0;
 
                 .bot_info_container {
-                    padding: 20px 0;
-                    display: flex;
                     align-items: center;
+                    display: flex;
                     justify-content: center;
+                    padding: 20px 0 10px 0;
+
+                    @include media-breakpoint-up(sm) {
+                        padding: 20px 0;
+                    }
 
                     @include media-breakpoint-up(xl) {
                         padding: 30px 0;
@@ -52,20 +57,25 @@
                         padding-right: 30px;
 
                         img {
-                            height: 70px;
-                            width: 70px;
+                            height: 50px;
+                            width: 50px;
+
+                            @include media-breakpoint-up(sm) {
+                                height: 70px;
+                                width: 70px;
+                            }
                         }
                     }
 
                     .bot_info {
                         .bot_name {
-                            font-size: 20px;
                             font-family: $black-regular-font;
+                            font-size: 20px;
                         }
 
                         .bot_status {
-                            font-size: 14px;
                             color: $white;
+                            font-size: 14px;
                             font-weight: bolder;
                         }
                     }
@@ -78,26 +88,29 @@
                     @include media-breakpoint-up(xl) {
                         padding: 30px 0;
                     }
+
+
+                    :global .custom-switch {
+                        padding-left: 28px;
+                    }
                 }
             }
 
             .dialog_container {
                 display: flex;
-                flex: 1 0 0;
-                height: calc(100vh - 230px);
+                flex: 1 0 auto;
                 flex-direction: column;
+                height: calc(100vh - 230px);
 
                 .dialog_content {
-                    display: flex;
-                    flex-direction: column;
                     height: 100%;
                     overflow-x: visible;
                     overflow-y: scroll;
                     padding: 15px;
 
                     &::-webkit-scrollbar {
-                        width: 12px;
                         height: 8px;
+                        width: 12px;
                     }
 
                     &::-webkit-scrollbar-thumb {
@@ -130,9 +143,9 @@
             }
 
             .dialog_footer {
-                padding: 20px;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
+                padding: 20px;
 
                 @include media-breakpoint-up(md) {
                     padding: 20px 30px;
