@@ -2,7 +2,7 @@
   "name": "filament-chatbot",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dmitrydyachenko.github.io/filament-chatbot/build",
+  "homepage": "https://dmitrydyachenko.github.io/filament-chatbot",
   "dependencies": {
     "@primer/octicons-react": "^9.1.1",
     "bootstrap": "^4.3.1",
