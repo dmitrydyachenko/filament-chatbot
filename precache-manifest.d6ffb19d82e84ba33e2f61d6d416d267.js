@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d8cca5ef280a2f23b4fd71a8d769ec9f",
+    "revision": "b8e3df135688465a7c3e1c219de44eb7",
     "url": "/filament-chatbot/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/filament-chatbot/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "67e814c93f86f77b09b2",
+    "revision": "0aab699886177ef1e756",
     "url": "/filament-chatbot/static/css/main.ce9eb617.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/filament-chatbot/static/js/2.b7b05c82.chunk.js"
   },
   {
-    "revision": "67e814c93f86f77b09b2",
-    "url": "/filament-chatbot/static/js/main.2cdaeaef.chunk.js"
+    "revision": "0aab699886177ef1e756",
+    "url": "/filament-chatbot/static/js/main.04f2b7d3.chunk.js"
   },
   {
     "revision": "bccbc51e4181b813b52f",
