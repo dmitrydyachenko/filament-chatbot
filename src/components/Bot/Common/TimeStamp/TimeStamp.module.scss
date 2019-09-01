@@ -1,0 +1,25 @@
+@import "src/styles/variables";
+
+.timestamp_container {
+    .timestamp {
+        font-size: 11px;
+
+        &.dark {
+            color: $grey50;
+        }
+    
+        &.light {
+            color: $grey900;
+        }
+    }
+
+    &.left {
+        float: left;
+        padding: 5px 0 10px 60px;
+    }
+
+    &.right {
+        float: right;
+        padding: 5px 60px 10px 0;
+    }   
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group Copy 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="20.5" cy="20.5" r="20.5"></circle>
+    </defs>
+    <g id="Playground" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Full-Chat-Items" transform="translate(-731.000000, -352.000000)">
+            <g id="Chat-04" transform="translate(731.000000, 333.000000)">
+                <g id="Group-Copy-8" transform="translate(0.000000, 19.000000)">
+                    <circle id="Oval-3-Copy-2" fill="#FFFFFF" cx="22.5" cy="22.5" r="22.5"></circle>
+                    <g id="images" transform="translate(2.000000, 2.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#222222" xlink:href="#path-1"></use>
+                        <image id="Robot_01" mask="url(#mask-2)" x="3" y="8" width="35" height="39" xlink:href="data:image/png;base64,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"></image>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

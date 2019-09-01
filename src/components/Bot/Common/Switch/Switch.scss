@@ -1,0 +1,12 @@
+@import "src/styles/variables";
+
+.custom-switch {
+    padding: 0;
+
+    .custom-control-input {}
+
+    .custom-control-label {
+        cursor: pointer;
+        font-family: $black-regular-font;
+    }
+}

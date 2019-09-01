@@ -1,0 +1,357 @@
+@import "src/styles/variables";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/breakpoints";
+
+.container {
+    padding-top: 20px;
+
+    .content_container {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        position: relative;
+
+        .icon {
+            bottom: -25px;
+            display: inline-block;
+            height: 45px;
+            padding: 5px;
+            position: absolute;
+            width: 45px;
+
+            .image {
+                background-position: 50% 50%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 50%;
+                height: 100%;
+                height: 45px;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 100%;
+                width: 45px;
+                z-index: 2;
+
+                &.default {
+                    z-index: 1;
+                }
+            }
+        }
+
+        .arrow {
+            z-index: 0;
+
+            &::after,
+            &::before {
+                border-bottom: 0 solid transparent;
+                border-top: 27px solid transparent;
+                bottom: 0;
+                content: '';
+                height: 0;
+                position: absolute;
+                width: 0;
+            }
+        }
+
+        .message {
+            display: inline-block;
+            overflow: hidden;
+            z-index: 1;
+
+            .body {
+                border-radius: 20px;
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 18px;
+                min-height: 18px;
+                min-width: 20px;
+                padding: 15px 20px;
+
+                @include media-breakpoint-up(xl) {
+                    padding: 15px 25px;
+                }
+
+                .replying {
+                    display: inline;
+
+                    div {
+                        animation-duration: 1.4s;
+                        animation-fill-mode: both;
+                        animation-iteration-count: infinite;
+                        animation-name: blink;
+
+                        &:nth-child(2) {
+                            animation-delay: .2s;
+                        }
+
+                        &:nth-child(3) {
+                            animation-delay: .4s;
+                        }
+                    }
+
+                    & > div {
+                        -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+                        animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+                        border-radius: 100%;
+                        display: inline-block;
+                        height: 8px;
+                        margin-left: 3px;
+                        margin-right: 3px;
+                        width: 8px;
+                    }
+
+                    &.bounce1 {
+                        -webkit-animation-delay: -0.32s;
+                        animation-delay: -0.32s;
+                    }
+
+                    &.bounce2 {
+                        -webkit-animation-delay: -0.16s;
+                        animation-delay: -0.16s;
+                    }
+                }
+            }
+        }
+    }
+
+    &.left {
+        float: left;
+        width: 100%;
+
+        .content_container {
+            max-width: 100%;
+
+            .icon {
+                left: 0;
+            }
+
+            .arrow {
+                &::after {
+                    border-right: 8px solid $grey800;
+                    left: 62px;
+                }
+
+                &::before {
+                    border-right: 12px solid $grey800;
+                    left: 60px;
+                }
+            }
+
+            .message {
+                padding: 0 0 0 65px;
+
+                @include media-breakpoint-up(xl) {
+                    padding: 0 65px;
+                }
+
+
+                .body {
+                    border-bottom-left-radius: 0;
+                    border-top-left-radius: 25px;
+                    margin-left: 5px;
+
+                    a {
+                        color: $blue100;
+                        font-weight: bolder;
+                        word-break: break-all;
+
+                        &:hover {
+                            color: $blue200;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.dark {
+            .content_container {
+                .arrow {
+                    background-color: $grey100;
+
+                    &::after {
+                        border-right-color: $grey100;
+                    }
+
+                    &::before {
+                        border-right-color: $grey100;
+                    }
+                }
+
+                .message {
+                    .body {
+                        background-color: $grey100;
+                        color: $grey800;
+
+                        .replying {
+                            & > div {
+                                background-color: $grey800;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.light {
+            .content_container {
+                .arrow {
+                    background-color: $grey800;
+
+                    &::after {
+                        border-right-color: $grey800;
+                    }
+
+                    &::before {
+                        border-right-color: $grey800;
+                    }
+                }
+
+                .message {
+                    .body {
+                        background-color: $grey800;
+                        color: $white;
+
+                        .replying {
+                            & > div {
+                                background-color: $white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.right {
+        float: right;
+
+        .content_container {
+            .icon {
+                right: 0;
+            }
+
+            .arrow {
+                &::after,
+                &::before {
+                    right: 0;
+                }
+
+                &::after {
+                    border-left: 8px solid;
+                    right: 62px;
+                }
+
+                &::before {
+                    border-left: 12px solid;
+                    right: 60px;
+                }
+            }
+
+            .message {
+                padding: 0 65px 0 0;
+
+                @include media-breakpoint-up(xl) {
+                    padding: 0 65px;
+                }
+
+
+                .body {
+                    background-color: $grey500;
+                    border-bottom-right-radius: 0;
+                    border-top-right-radius: 25px;
+                    color: $white;
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        &.dark {
+            .content_container {
+                .icon {
+                    .image {
+                        background-color: $white;
+                    }
+                }
+
+                .arrow {
+                    background-color: $grey500;
+
+                    &::after {
+                        border-left-color: $grey500;
+                    }
+
+                    &::before {
+                        border-left-color: $grey500;
+                    }
+                }
+
+                .message {
+                    .body {
+                        background-color: $grey500;
+                        color: $white;
+
+                        .replying {
+                            & > div {
+                                background-color: $grey500;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.light {
+            .content_container {
+                .arrow {
+                    background-color: $grey500;
+
+                    &::after {
+                        border-left-color: $grey500;
+                    }
+
+                    &::before {
+                        border-left-color: $grey500;
+                    }
+                }
+
+                .message {
+                    .body {
+                        background-color: $grey500;
+                        color: $white;
+
+                        .replying {
+                            & > div {
+                                background-color: $grey500;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0);
+    }
+
+    40% {
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes sk-bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    40% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
