@@ -4,4 +4,4 @@ export const BOTID = '6';
 export const BOTPROVIDERID = '4';
 
 /* BOT */
-export const WELCOMEMESSAGE = 'Hi, mate. What can I help you with today?';
+export const WELCOMEMESSAGE = 'Hi, mate. Ask me about Filament CEOs, delivery process and products.';
