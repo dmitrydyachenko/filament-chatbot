@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/filament-chatbot/build/static/css/main.d7e8852e.chunk.css",
-    "main.js": "/filament-chatbot/build/static/js/main.fc7e832f.chunk.js",
-    "main.js.map": "/filament-chatbot/build/static/js/main.fc7e832f.chunk.js.map",
-    "runtime~main.js": "/filament-chatbot/build/static/js/runtime~main.cdcf1746.js",
-    "runtime~main.js.map": "/filament-chatbot/build/static/js/runtime~main.cdcf1746.js.map",
-    "static/css/2.266e55a5.chunk.css": "/filament-chatbot/build/static/css/2.266e55a5.chunk.css",
-    "static/js/2.da62e346.chunk.js": "/filament-chatbot/build/static/js/2.da62e346.chunk.js",
-    "static/js/2.da62e346.chunk.js.map": "/filament-chatbot/build/static/js/2.da62e346.chunk.js.map",
-    "index.html": "/filament-chatbot/build/index.html",
-    "precache-manifest.356c0795e7594322ca6b258d348e3920.js": "/filament-chatbot/build/precache-manifest.356c0795e7594322ca6b258d348e3920.js",
-    "service-worker.js": "/filament-chatbot/build/service-worker.js",
-    "static/css/2.266e55a5.chunk.css.map": "/filament-chatbot/build/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.d7e8852e.chunk.css.map": "/filament-chatbot/build/static/css/main.d7e8852e.chunk.css.map",
-    "static/media/index.scss": "/filament-chatbot/build/static/media/Gotham-XLight.c614fbad.woff",
-    "static/media/bot.svg": "/filament-chatbot/build/static/media/bot.48df58b9.svg",
-    "static/media/user.svg": "/filament-chatbot/build/static/media/user.2b7412eb.svg"
+    "main.css": "/filament-chatbot/static/css/main.df502903.chunk.css",
+    "main.js": "/filament-chatbot/static/js/main.3a8c5ca6.chunk.js",
+    "main.js.map": "/filament-chatbot/static/js/main.3a8c5ca6.chunk.js.map",
+    "runtime~main.js": "/filament-chatbot/static/js/runtime~main.ca6dac7d.js",
+    "runtime~main.js.map": "/filament-chatbot/static/js/runtime~main.ca6dac7d.js.map",
+    "static/css/2.266e55a5.chunk.css": "/filament-chatbot/static/css/2.266e55a5.chunk.css",
+    "static/js/2.da62e346.chunk.js": "/filament-chatbot/static/js/2.da62e346.chunk.js",
+    "static/js/2.da62e346.chunk.js.map": "/filament-chatbot/static/js/2.da62e346.chunk.js.map",
+    "index.html": "/filament-chatbot/index.html",
+    "precache-manifest.578468710dccd5565f55da107eca28dc.js": "/filament-chatbot/precache-manifest.578468710dccd5565f55da107eca28dc.js",
+    "service-worker.js": "/filament-chatbot/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/filament-chatbot/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.df502903.chunk.css.map": "/filament-chatbot/static/css/main.df502903.chunk.css.map",
+    "static/media/index.scss": "/filament-chatbot/static/media/Gotham-XLight.c614fbad.woff",
+    "static/media/bot.svg": "/filament-chatbot/static/media/bot.48df58b9.svg",
+    "static/media/user.svg": "/filament-chatbot/static/media/user.2b7412eb.svg"
   }
 }
