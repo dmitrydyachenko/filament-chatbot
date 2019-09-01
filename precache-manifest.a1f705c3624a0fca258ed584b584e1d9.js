@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c6a04cf89ba37e3d6320eb7914d38a8",
+    "revision": "5142dae4336e2ce03e0752f16f50f2e2",
     "url": "/filament-chatbot/index.html"
   },
   {
-    "revision": "f54cb7ed5bc12f070db5",
+    "revision": "af7f9283c0e965d0785f",
     "url": "/filament-chatbot/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "5df96c4a2b4bf3495424",
-    "url": "/filament-chatbot/static/css/main.ce9eb617.chunk.css"
+    "revision": "2a8dee1f99c3e0362d73",
+    "url": "/filament-chatbot/static/css/main.f4d81630.chunk.css"
   },
   {
-    "revision": "f54cb7ed5bc12f070db5",
-    "url": "/filament-chatbot/static/js/2.29e9230d.chunk.js"
+    "revision": "af7f9283c0e965d0785f",
+    "url": "/filament-chatbot/static/js/2.c3c16594.chunk.js"
   },
   {
-    "revision": "5df96c4a2b4bf3495424",
-    "url": "/filament-chatbot/static/js/main.68b7b68d.chunk.js"
+    "revision": "2a8dee1f99c3e0362d73",
+    "url": "/filament-chatbot/static/js/main.54f3e865.chunk.js"
   },
   {
     "revision": "bccbc51e4181b813b52f",
