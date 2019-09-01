@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/filament-chatbot/static/css/main.ce9eb617.chunk.css",
-    "main.js": "/filament-chatbot/static/js/main.fc95ec84.chunk.js",
-    "main.js.map": "/filament-chatbot/static/js/main.fc95ec84.chunk.js.map",
+    "main.js": "/filament-chatbot/static/js/main.68b7b68d.chunk.js",
+    "main.js.map": "/filament-chatbot/static/js/main.68b7b68d.chunk.js.map",
     "runtime~main.js": "/filament-chatbot/static/js/runtime~main.ca6dac7d.js",
     "runtime~main.js.map": "/filament-chatbot/static/js/runtime~main.ca6dac7d.js.map",
     "static/css/2.266e55a5.chunk.css": "/filament-chatbot/static/css/2.266e55a5.chunk.css",
     "static/js/2.29e9230d.chunk.js": "/filament-chatbot/static/js/2.29e9230d.chunk.js",
     "static/js/2.29e9230d.chunk.js.map": "/filament-chatbot/static/js/2.29e9230d.chunk.js.map",
     "index.html": "/filament-chatbot/index.html",
-    "precache-manifest.0d6ac62f9cad2433f2864fb9751508ea.js": "/filament-chatbot/precache-manifest.0d6ac62f9cad2433f2864fb9751508ea.js",
+    "precache-manifest.0449cfbd61ff8d1d242f7dadc88552a9.js": "/filament-chatbot/precache-manifest.0449cfbd61ff8d1d242f7dadc88552a9.js",
     "service-worker.js": "/filament-chatbot/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/filament-chatbot/static/css/2.266e55a5.chunk.css.map",
     "static/css/main.ce9eb617.chunk.css.map": "/filament-chatbot/static/css/main.ce9eb617.chunk.css.map",

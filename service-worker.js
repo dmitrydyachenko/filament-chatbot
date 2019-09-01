@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/filament-chatbot/precache-manifest.0d6ac62f9cad2433f2864fb9751508ea.js"
+  "/filament-chatbot/precache-manifest.0449cfbd61ff8d1d242f7dadc88552a9.js"
 );
 
 self.addEventListener('message', (event) => {
