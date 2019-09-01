@@ -15,7 +15,6 @@ const useEffectDarkMode = () => {
 
 	React.useEffect(() => {
 		setThemeState({
-			...themeState,
 			dark: localStorage.getItem('dark') === 'true',
 			hasThemeMounted: true,
 		});

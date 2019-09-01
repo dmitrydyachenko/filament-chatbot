@@ -95,10 +95,12 @@ export default class BotContainer extends React.Component {
 		if (responses && responses.length) {
 			let firstInSet = true;
 
+			// eslint-disable-next-line no-unused-vars
 			for (const response of responses) {
 				const { data, type } = response || { data: { text: '' }, type: 'text' };
 
 				if (data) {
+					// eslint-disable-next-line no-unused-vars
 					for (const d of data) {
 						const botData = this.getBotData({ message: d }, type, firstInSet);
 
